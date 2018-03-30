@@ -1,4 +1,11 @@
-
+-- phpMyAdmin SQL Dump
+-- version 4.7.3
+-- https://www.phpmyadmin.net/
+--
+-- Хост: 127.0.0.1:3306
+-- Время создания: Мар 30 2018 г., 16:26
+-- Версия сервера: 5.7.19
+-- Версия PHP: 7.1.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -14,14 +21,14 @@ SET time_zone = "+00:00";
 --
 -- База данных: `shop_bd`
 --
+CREATE DATABASE IF NOT EXISTS `shop_bd` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `shop_bd`;
 
 -- --------------------------------------------------------
 
 --
 -- Структура таблицы `orders`
 --
-
-CREATE DATABASE shop_bd;
 
 CREATE TABLE `orders` (
   `id` int(11) NOT NULL,
